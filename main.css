@@ -1,5 +1,5 @@
 body {
-  background-color: palegreen;
+  background-color: lightcyan;
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -27,4 +27,12 @@ body {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;             
 }
