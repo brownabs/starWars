@@ -1,13 +1,13 @@
-<!DOCTYPE html> <!-- tells the browswer that this document is in html 5.  if the html is uppercase then you have to specify more information (this was done in versions of html before 5.  so just make it lowercase)-->
-<html lang="en"> <!-- tells the browser that this is the root of the html document -->
-<head> <!-- container for all the head elements - link, meta, script, style, or title tags -->
-  <meta charset="UTF-8"> <!-- this tells the browser what type of character set you are using.  You will practically always use UTF-8 as its the prefered standard for html-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- this sets the viewport of the site to match the width of the device you are on.  should always include this line -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- this specifies what versions of ie your site supports.  In this case we are only supporting modern browsers (edge and up) -->
-  <title>People's Page</title> <!-- Whatever you type here will display in the title tab at the top of the browser -->
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+  <title>People</title> 
   <link rel="stylesheet" href="./main.css" />
-</head> <!-- closes head tag -->
-<body> <!-- section of the document that contains ALL the html -->
+</head> 
+<body> 
   <nav>
     <div class="topnav">
     <a href="/index.html">Home</a> 
@@ -15,8 +15,9 @@
     <a href="/people.html/">People</a> 
   </div>
   </nav>
-  <h1>STAR WAR HUMANS</h1>
-  <div class="allHumans">
+  <main>
+  <h1>STAR WARS HUMANS</h1>
+  <section class="allHumans">
     <article class="singleHuman"><h2>Princess Leia</h2></article>
     <p>Light Side</p>
     <article class="singleHuman"><h2>Hans Solo</h2></article>
@@ -25,9 +26,9 @@
     <p>Light Side</p>
     <article class="singleHuman"><h2>Darth Vader</h2></article>
     <p>Dark Side</p>
-  </div>
-
+  </section>
+</main>
   <footer> &copy; PROPERTY OF ABBEY BROWN</footer>
-</body> <!-- closing tag for body -->
+</body> 
 <script src="main.js"></script>
-</html> <!-- closing tag for html -->
+</html>

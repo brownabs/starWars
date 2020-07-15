@@ -12,6 +12,9 @@ body {
   background-color: yellow;
 }
 
+ul {
+  list-style-type: none;
+}
 .star-wars {
   /* Flexbox to center the entire element on the screen */
   display: flex;
